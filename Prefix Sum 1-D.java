@@ -17,7 +17,7 @@ public class Main {
             cumArr.add(cumArr.get(i - 1) + arr.get(i));
         }
 
-        int q = scanner.nextInt();
+        int q = sc.nextInt();
         while (q-- > 0) {
             int start = sc.nextInt();
             int end = sc.nextInt();
